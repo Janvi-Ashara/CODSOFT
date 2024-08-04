@@ -4,7 +4,7 @@ from tkinter import messagebox, ttk
 class ContactBook:
     def __init__(self, root):
         self.root = root
-        self.root.title("Contact Management System")
+        self.root.title("Contact Book")
 
         # Contact details
         self.contacts = []
